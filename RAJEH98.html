@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Eerste Website</title>
+    <!-- Font Awesome Iconen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Koppeling naar CSS -->
+    <link rel="stylesheet" href="RAJEH98.css">
+</head>
+<body>
+
+    <!-- Navigatiebalk -->
+    <header>
+        <div class="logo">RajehLogo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#over-mij">Over Mij</a></li>
+                <li><a href="Rajeh-Shop.html" class="nav-shop-btn"><i class="fas fa-shopping-cart"></i> Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welkom op mijn website!</h1>
+            <p>Dit is een mooie en eenvoudige pagina gemaakt met HTML en CSS.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Neem Contact Op</a>
+                <a href="Rajeh-Shop.html" class="btn btn-shop"><i class="fas fa-store"></i> Ga naar Shop ➔</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <section id="over-mij" class="card">
+            <h2>Over dit project</h2>
+            <p>
+                HTML zorgt voor de structuur van de pagina, terwijl CSS zorgt voor de vormgeving.
+            </p>
+            <br>
+            <a href="Rajeh-Shop.html" class="btn btn-shop"><i class="fas fa-shopping-bag"></i> Ga naar Shop</a>
+        </section>
+
+        <!-- Contact Sectie -->
+        <section id="contact" class="card contact-section">
+            <h2>Contact</h2>
+            <p>Heb je vragen? Neem gerust contact met mij op:</p>
+            
+            <div class="contact-info">
+                <p><strong>📧 E-mail:</strong> <a href="mailto:jouw.email@gmail.com">jouw.email@gmail.com</a></p>
+                <p><strong>📞 Telefoon:</strong> <a href="tel:+32412345678">+32 412 34 56 78</a></p>
+                <p><strong>🎓 Opleiding:</strong> <a href="https://www.cvoscala.be" target="_blank">Bekijk mijn opleiding</a></p>
+
+                <div class="social-container">
+                    <p><strong>Volg mij op social media:</strong></p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/rajehh.y/" target="_blank" class="social-icon instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/rajeh.hy" target="_blank" class="social-icon facebook" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-img-container">
+                    <img src="rajehfotos.jpg" alt="Rajeh Foto" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mijn Website. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>
